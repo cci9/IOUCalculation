@@ -27,5 +27,7 @@ The IOU calculation can be done over the images or coordinates captured from the
 In this article, I have focused on the IOU calculation based on coordinates received from two different sensors. The captured coordinates would be of 2D Quadrilateral.
 Refer to the MATLAB Code for the Calculation of IOU using the X and Y coordinates captured from the two different sensors. The point of interest here is in finding the intersection points and identifying the quadrilateral vertices that lie inside another quadrilateral.
 A glimpse of the MATLAB code results:
+
 ![5](https://user-images.githubusercontent.com/58618142/135724018-7a62b1e0-a77b-4065-8dad-ee21cb684015.png)
+
 I have considered all the possible conditions for regular/irregular quadrilateral such as complete overlapping, no overlapping, vertices having negative and positive coordinates, and so on.
