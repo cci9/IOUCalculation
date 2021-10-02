@@ -4,9 +4,13 @@ planning, system management, and localization. Perception is a process that sens
 surrounding environment using various sensors like Radars, LiDARs, Ultrasonic and
 Cameras sensors.
 Sensors are designed to extract information from the environment and hence, to perceive the surroundings.
+
 •         Lidars are used to extract the information on the position and shape of surrounding obstacles within its range and field of view (FOV).
+
 •         Camera sensor data provides information about the object class.
+
 •         Radars are used to derive the position and velocity of the obstacles and so on.
+
 Multi-sensor fusion integrates the sequence of observations from a number of heterogeneous sensors into a single best estimate of the state of the environment.
  
 One of the Sensor Fusion outputs is the IOU (Intersection over Union) or Jaccard index during the object detection. When the object detection is performed through more than one source of sensors (such as Ultrasonic and Camera sensors), the IOU or Jaccard index is calculated to quantify the percent overlap from two different sources of sensors.
