@@ -15,7 +15,7 @@ observations from a number of different sensors into a single best estimate of t
 of the environment.
 In such a case, the IOU helps to identify the overlap area, which is captured from the multi-sensors.
 For example for the Autonomous Parking Functionality of ADAS (Autonomous Driving Assistance System), the Ultrasonic and Camera sensors are capturing the free space for Ego Vehicle Parking (as shown in the below figure). As per the capability and mounting position of different sensors, the available parking space is captured. The captured area from different sensors may or may not be the same. In that case, the IOU or Jaccard Index helps to quantify the overlap area detected by two different sensors. 
-
+![cars_with_boxes (1)](https://user-images.githubusercontent.com/58618142/135723861-aaf32292-40c8-4d3c-9636-7531ec62e825.png)
 The IOU or Jaccard Index is calculated as follows:
 
 The IOU (Intersection over Union) value varies between 0 to 1. More the overlap region better the IOU value.  Henceforth the confidence in the input data from the sensors increases. Lower the IOU, troubles in deciding the available space for the parking as different sensors are showing different spaces for parking.
